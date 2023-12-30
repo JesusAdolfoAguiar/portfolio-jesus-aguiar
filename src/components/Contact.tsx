@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useRef } from "react";
-import Button from "./Button";
+import Button from "./Button.tsx";
 import axios from "axios";
 import { Highlight, themes } from "prism-react-renderer";
 import { contactData, toastMessages } from "../assets/lib/data.tsx";
-import { useSectionInView } from "../assets/lib/hooks";
-import { useLanguage } from "../context/language-context";
+import { useSectionInView } from "../assets/lib/hooks.tsx";
+import { useLanguage } from "../context/language-context.tsx";
 import { ToastContainer, toast } from "react-toastify";
-import { useTheme } from "../context/theme-context";
+import { useTheme } from "../context/theme-context.tsx";
 import { motion, useScroll, useTransform } from "framer-motion";
 import "react-toastify/dist/ReactToastify.css";
 

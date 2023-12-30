@@ -147,7 +147,7 @@ export const projectsData = [
       { name: "React", icon: reacticon },
       { name: "JWT & Bcrypt", icon: jwticon },
       { name: "Axios", icon: axiosicon },
-      { name: "MongoDB", icon: postgresicon },
+      { name: "PostgreSQL", icon: postgresicon },
       { name: "Express", icon: expressiconwhite },
       { name: "Node.js", icon: nodejsicon },
       { name: "Figma", icon: figmaicon },
@@ -231,7 +231,7 @@ export const skillsDataWeb = [
         title: "PostgreSQL",
         hash: "#PostgreSQL",
         icon: postgresicon,
-        color: "#449C45",
+        color: "#336791",
       },
       {
         title: "Vue.js",

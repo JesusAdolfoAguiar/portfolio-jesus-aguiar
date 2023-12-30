@@ -7,7 +7,7 @@ import { useTheme } from "../context/theme-context";
 
 import Popup from "reactjs-popup";
 import { VscChromeClose } from "react-icons/vsc";
-const LazyServiceStatus = lazy(() => import("../components/ServiceStatus"));
+const LazyServiceStatus = lazy(() => import("./ServiceStatus"));
 
 interface SocialLink {
   link: string;
