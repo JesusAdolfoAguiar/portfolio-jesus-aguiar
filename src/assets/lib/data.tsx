@@ -10,8 +10,14 @@ import nextjsicon from "../../assets/icons/nextjsicon.svg";
 import nodejsicon from "../../assets/icons/nodejsicon.svg";
 import tailwindcssicon from "../../assets/icons/tailwindicon.svg";
 import postgresicon from "../../assets/icons/postgresqlicon.svg";
+import circleciicon from "../../assets/icons/circleciicon.svg";
+import clarifaiicon from "../../assets/icons/clarifaiicon.svg";
+import dockericon from "../../assets/icons/dockericon.svg";
+import jesticon from "../../assets/icons/jesticon.svg";
+import redisicon from "../../assets/icons/redisicon.svg";
+import zapiericon from "../../assets/icons/zapiericon.svg";
 // import mongodbicon from "../../assets/icons/mongoicon.svg";
-import vuejsicon from "../../assets/icons/vueicon.svg";
+// import vuejsicon from "../../assets/icons/vueicon.svg";
 import expressicon from "../../assets/icons/expressicon.svg";
 import sassscssicon from "../../assets/icons/sassicon.svg";
 import trelloicon from "../../assets/icons/trelloicon.svg";
@@ -233,12 +239,12 @@ export const skillsDataWeb = [
         icon: postgresicon,
         color: "#336791",
       },
-      {
-        title: "Vue.js",
-        hash: "#Vue.js",
-        icon: vuejsicon,
-        color: "#4FC08D",
-      },
+      // {
+      //   title: "Vue.js",
+      //   hash: "#Vue.js",
+      //   icon: vuejsicon,
+      //   color: "#4FC08D",
+      // },
       {
         title: "Express",
         hash: "#Express",
@@ -249,6 +255,42 @@ export const skillsDataWeb = [
         title: "SASS/SCSS",
         hash: "#SASS/SCSS",
         icon: sassscssicon,
+        color: "#CC6699",
+      },
+      {
+        title: "CircleCI",
+        hash: "#CircleCI",
+        icon: circleciicon,
+        color: "#CC6699",
+      },
+      {
+        title: "Clarifai",
+        hash: "#Clarifai",
+        icon: clarifaiicon,
+        color: "#CC6699",
+      },
+      {
+        title: "Docker",
+        hash: "#Docker",
+        icon: dockericon,
+        color: "#CC6699",
+      },
+      {
+        title: "Jest",
+        hash: "#Jest",
+        icon: jesticon,
+        color: "#CC6699",
+      },
+      {
+        title: "Redis",
+        hash: "#Redis",
+        icon: redisicon,
+        color: "#CC6699",
+      },
+      {
+        title: "Zapier",
+        hash: "#Zapier",
+        icon: zapiericon,
         color: "#CC6699",
       },
     ],
