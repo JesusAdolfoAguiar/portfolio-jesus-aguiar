@@ -51,14 +51,14 @@ export const headerIntroData = {
   },
   subtitle: "Frontend Developer ",
   description: {
-    es: "Ich bin Alpay, ein Fullstack-Entwickler mit dem Ziel, meine Karriere voranzutreiben und an inspirierenden Projekten teilzunehmen. Hier präsentiere ich meine Arbeiten und meine Leidenschaft für die Webentwicklung. Lassen Sie uns gemeinsam digitale Lösungen gestalten und die Zukunft formen!",
+    es: "Soy un biólogo que pasó de la investigación científica a la creación de sitios web para ganarse la vida. El Frontend de comercios electrónicos es mi principal campo de especialización y puedo trabajar cómodamente en tiendas Shopify usando Liquid o creando excelentes aplicaciones web a través de React. Fuera de mi horario de 9 a 5, me gusta leer libros, comer buena comida y hacer paradas de manos. Los cursos online son mi adicción y mi objetivo a largo plazo es aprender algo nuevo cada día.",
     en: "I'm a Biologist that went from scientific research to building websites for a living. The Frontend of ecommerces is my main field of expertise, and I can comfortably work in Shopify stores using Liquid or creating great web apps through React. Outside of my 9-5 I like to read books, eat great food and do handstands. Online courses are my addiction and my long-term goal is to learn something new every day.",
   },
   buttons: [
     {
       name: "Contact",
       label: {
-        es: "Kontaktiere mich",
+        es: "Contáctame",
         en: "Contact me",
       },
       icon: FiMail,
@@ -176,7 +176,7 @@ export const projectsData = [
 
 export const liveTickerData = {
   content: {
-    es: "Weitere Projekte auf Github",
+    es: "Más proyectos en Github",
     en: "More Projects on Github",
   },
 } as const;
@@ -348,14 +348,14 @@ export const skillsDataCMS = [
 export const navLinks = [
   { es: "Home", en: "Home", hash: "#home", icon: GoHome },
   { es: "Skills", en: "Skills", hash: "#skills", icon: GoStack },
-  { es: "Projekte", en: "Projects", hash: "#projects", icon: GoProject },
-  { es: "Über mich", en: "About me", hash: "#about-me", icon: GoPerson },
-  { es: "Kontakt", en: "Contact", hash: "#contact", icon: GoMail },
+  { es: "Proyectos", en: "Projects", hash: "#projects", icon: GoProject },
+  { es: "Acerca de mí", en: "About me", hash: "#about-me", icon: GoPerson },
+  { es: "Contacto", en: "Contact", hash: "#contact", icon: GoMail },
 ] as const;
 
 export const FooterLinks = [
-  { es: "Impressum", en: "Imprint", hash: "#imprint", data: <Imprint /> },
-  { es: "Datenschutz", en: "Privacy", hash: "#privacy", data: <Privacy /> },
+  { es: "Marca", en: "Imprint", hash: "#imprint", data: <Imprint /> },
+  { es: "Privacidad", en: "Privacy", hash: "#privacy", data: <Privacy /> },
 ] as const;
 
 export const sideBarRightMail = {
@@ -365,12 +365,12 @@ export const sideBarRightMail = {
 
 export const sideBarLeftSocials = [
   {
-    link: "https://www.linkedin.com/in/alpay/",
+    link: "https://www.linkedin.com/in/jes%C3%BAs-adolfo-aguiar-escobar-533176151/",
     icon: FiLinkedin,
     altimgname: "linkedin",
   },
   {
-    link: "https://github.com/AlpayC",
+    link: "https://github.com/JesusAdolfoAguiar",
     icon: FiGithub,
     altimgname: "github",
   },
@@ -383,20 +383,20 @@ export const sideBarLeftSocials = [
 
 export const quotesData = [
   {
-    es: '"Es ist überhaupt nicht wichtig, es beim ersten Mal richtig zu machen. Es ist entscheidend, es beim letzten Mal richtig zu machen."',
+    es: '"No es nada importante hacerlo bien la primera vez. Es de vital importancia hacerlo bien la última vez."',
     en: `"It's not at all important to get it right the first time. It's vitally important to get it right the last time."`,
     author: "Andrew Hunt",
   },
   {
-    es: '"Das Web ist wie eine Leinwand und der Code ist die Farbe. Erschaffe dein Meisterwerk."',
-    en: `"The web is like a canvas, and code is the paint. Create your masterpiece."`,
+    es: `"La web es como un lienzo y el código es la pintura. Crea tu obra maestra."`,
+    en: `"The web is like a canvas and the code is the paint. Create your masterpiece."`,
   },
 ] as const;
 
 export const aboutMeData = {
-  title: "Über mich",
+  title: "Acerca de mí",
   title_EN: "About me",
-  description: "Ein paar Codeschnippsel über mich",
+  description: "Algunos snippets de código sobre mí",
   description_EN: "A few code snippets about me",
   paragraphs_ES: [
     {
@@ -442,23 +442,23 @@ export const aboutMeData = {
 
 export const contactData = {
   title: {
-    es: "Kontakt",
+    es: "Contacto",
     en: "Contact",
   },
   description: {
-    es: "Schreib mir eine Nachricht und ich melde mich bei dir.",
+    es: "Escríbeme un mensaje y me comunicaré contigo.",
     en: "Write me a message and I will get back to you.",
   },
   inputfields: [
     {
       name: "name",
       placeholder: {
-        es: "Dein Name",
-        en: "Your Name",
+        es: "Nombre",
+        en: "Name",
       },
       type: "text",
       validation: {
-        es: "Bitte gebe deinen Namen ein",
+        es: "Por favor, escribe tu nombre",
         en: "Please fill in your name",
       },
       pattern: "{2}",
@@ -466,12 +466,12 @@ export const contactData = {
     {
       name: "email",
       placeholder: {
-        es: "Deine E-Mail Adresse",
-        en: "Your E-Mail",
+        es: "E-Mail",
+        en: "E-Mail",
       },
       type: "email",
       validation: {
-        es: "Bitte gebe deine Email ein",
+        es: "Por favor, escribe tu correo electrónico",
         en: "Please fill in your email",
       },
       pattern: "[@]{4}",
@@ -479,12 +479,12 @@ export const contactData = {
     {
       name: "subject",
       placeholder: {
-        es: "Deine Betreff",
-        en: "Your Subject",
+        es: "Asunto",
+        en: "Subject",
       },
       type: "text",
       validation: {
-        es: "Bitte gebe einen Betreff ein",
+        es: "Por favor, escribe el asunto",
         en: "Please fill in your subject",
       },
       pattern: "{10}",
@@ -492,20 +492,20 @@ export const contactData = {
   ],
   textarea: {
     placeholder: {
-      es: "Deine Nachricht",
-      en: "Your Message",
+      es: "Mensaje",
+      en: "Message",
     },
     name: "message",
     rows: 10,
     validation: {
-      es: "Bitte gebe deine Nachricht ein",
+      es: "Por favor, escribe tu mensaje.",
       en: "Please fill in your message",
     },
     pattern: "{10}",
   },
   button: {
     value: {
-      es: "Absenden",
+      es: "Enviar",
       en: "Send",
     },
   },
@@ -518,12 +518,12 @@ export const contactData = {
   },
   privacyOptIn: {
     checkbox: {
-      es: "Ich stimme zu, dass Alpay meine personenbezogenen Daten (Name und E-Mail-Adresse) verwenden darf, um mit mir Kontakt aufzunehmen.",
-      en: "I agree that Alpay may use my personal data (name and e-mail address) to contact me.",
+      es: "Acepto que Jesús pueda utilizar mis datos personales (nombre y dirección de correo electrónico) para contactar conmigo.",
+      en: "I agree that Jesús may use my personal data (name and e-mail address) to contact me.",
     },
     description: {
-      es: "Durch Übermittlung dieser Anfrage bestätigen Sie, dass Sie die Datenschutzerklärung gelesen haben",
-      en: "By submitting this request, you acknowledge that you have read the Private Policy",
+      es: "Al enviar esta solicitud, usted reconoce que ha leído la Política de Privacidad.",
+      en: "By submitting this request, you acknowledge that you have read the Private Policy.",
     },
   },
 } as const;
