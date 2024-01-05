@@ -27,6 +27,7 @@ import axiosicon from "../../assets/icons/axiosicon.svg";
 import spotifyicon from "../../assets/icons/spotifyicon.svg";
 import netlifyicon from "../../assets/icons/netlifyicon.svg";
 import rendericon from "../../assets/icons/rendericon.svg";
+import firebaseicon from "../../assets/icons/firebaseicon.svg";
 import jwticon from "../../assets/icons/jwticon.svg";
 // import wordpressicon from "../../assets/icons/wordpressicon.svg";
 import shopifyicon from "../../assets/icons/shopifyicon.svg";
@@ -95,6 +96,7 @@ export const projectsData = [
       { name: "Typescript", icon: typescripticon },
       { name: "Redux", icon: reduxicon },
       { name: "Netlify", icon: netlifyicon },
+      { name: "Firebase", icon: firebaseicon },
       // { name: "Trello", icon: trelloicon },
     ],
     image: crownMockup,
@@ -128,6 +130,7 @@ export const projectsData = [
       { name: "Node.js", icon: nodejsicon },
       { name: "Figma", icon: figmaicon },
       { name: "Render", icon: rendericon },
+      { name: "Firebase", icon: firebaseicon },
     ],
     image: silentmoonMockup,
     deploymenturl: "https://crown-clothing-ja.netlify.app/",
@@ -306,6 +309,12 @@ export const skillsDataWeb = [
         hash: "#Render",
         icon: rendericon,
         color: "#5EEBC4",
+      },
+      {
+        title: "Firebase",
+        hash: "#Firebase",
+        icon: firebaseicon,
+        color: "#ffa000",
       },
     ],
   },
