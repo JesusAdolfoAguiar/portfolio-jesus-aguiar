@@ -32,7 +32,7 @@ import jwticon from "../../assets/icons/jwticon.svg";
 import shopifyicon from "../../assets/icons/shopifyicon.svg";
 import webflowicon from "../../assets/icons/webflowicon.svg";
 // import tastyMockup from "../../assets/img/tasty_mockup.webp";
-import crownMockup from "../../assets/img/crown-clothing-mobile.webp";
+import crownMockup from "../../assets/img/crown_clothing_mockup.webp";
 import instorMockup from "../../assets/img/instor_mockup.webp";
 import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
 import profilepicture from "../img/me2.webp";
@@ -98,8 +98,8 @@ export const projectsData = [
       // { name: "Trello", icon: trelloicon },
     ],
     image: crownMockup,
-    deploymenturl: "https://delightful-cheesecake-9b19f0.netlify.app/",
-    githuburl: "https://github.com/AlpayC/Frontend_Abschlussprojekt_Tasty",
+    deploymenturl: "https://crown-clothing-ja.netlify.app/",
+    githuburl: "https://github.com/JesusAdolfoAguiar/clothing-ecommerce",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -130,9 +130,9 @@ export const projectsData = [
       { name: "Render", icon: rendericon },
     ],
     image: silentmoonMockup,
-    deploymenturl: "https://silentmoon-grpw.onrender.com/",
+    deploymenturl: "https://crown-clothing-ja.netlify.app/",
     githuburl:
-      "https://github.com/AlpayC/Fullstack_Abschlussprojekt_SilentMoon",
+      "https://github.com/JesusAdolfoAguiar/clothing-ecommerce",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
