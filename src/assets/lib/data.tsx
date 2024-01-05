@@ -1,5 +1,5 @@
 // import adobexdicon from "../../assets/icons/adobexdicon.svg";
-import canvaicon from "../../assets/icons/canvaicon.svg";
+// import canvaicon from "../../assets/icons/canvaicon.svg";
 import figmaicon from "../../assets/icons/figmaicon.svg";
 import htmlicon from "../../assets/icons/htmlicon.svg";
 import cssicon from "../../assets/icons/cssicon.svg";
@@ -16,6 +16,7 @@ import dockericon from "../../assets/icons/dockericon.svg";
 import jesticon from "../../assets/icons/jesticon.svg";
 import redisicon from "../../assets/icons/redisicon.svg";
 import zapiericon from "../../assets/icons/zapiericon.svg";
+import reduxicon from "../../assets/icons/reduxicon.svg";
 // import mongodbicon from "../../assets/icons/mongoicon.svg";
 // import vuejsicon from "../../assets/icons/vueicon.svg";
 import expressicon from "../../assets/icons/expressicon.svg";
@@ -30,7 +31,8 @@ import jwticon from "../../assets/icons/jwticon.svg";
 // import wordpressicon from "../../assets/icons/wordpressicon.svg";
 import shopifyicon from "../../assets/icons/shopifyicon.svg";
 import webflowicon from "../../assets/icons/webflowicon.svg";
-import tastyMockup from "../../assets/img/tasty_mockup.webp";
+// import tastyMockup from "../../assets/img/tasty_mockup.webp";
+import crownMockup from "../../assets/img/crown-clothing-mobile.webp";
 import instorMockup from "../../assets/img/instor_mockup.webp";
 import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
 import profilepicture from "../img/me2.webp";
@@ -79,23 +81,23 @@ export const headerIntroData = {
 
 export const projectsData = [
   {
-    title: "Tasty App",
+    title: "Crown Clothing",
     description:
-      "Eine Rezepte App, die wir als Team mit React und der MealDB API gebaut haben. Ich war der Front-End Entwickler und habe Features wie Voice Search oder Print to PDF programmiert. Das Design wurde mit Figma erstellt. Die Website ist responsive und mobile-optimiert.",
+      "Una aplicación web ecommerce de ropa creada en React usando el API de Firebase para autenticación y como base de datos, el API de Stripe para procesamiento de pagos, y Netlify para el hosting.",
     description_EN:
-      "A recipe app that we built as a team with React and the MealDB API. I was the front-end developer and programmed features like voice search or print to PDF. The design was created with Figma. The website is responsive and mobile-optimized.",
+      "An clothing ecommerce web app built in React using the Firebase API for authentication and database, the Stripe API for payment processing, and Netlify for hostig.",
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
       { name: "JavaScript", icon: javascripticon },
       { name: "REST Api", icon: apiicon },
       { name: "React", icon: reacticon },
-      { name: "Figma", icon: figmaicon },
-      { name: "Canva", icon: canvaicon },
+      { name: "Typescript", icon: typescripticon },
+      { name: "Redux", icon: reduxicon },
       { name: "Netlify", icon: netlifyicon },
-      { name: "Trello", icon: trelloicon },
+      // { name: "Trello", icon: trelloicon },
     ],
-    image: tastyMockup,
+    image: crownMockup,
     deploymenturl: "https://delightful-cheesecake-9b19f0.netlify.app/",
     githuburl: "https://github.com/AlpayC/Frontend_Abschlussprojekt_Tasty",
     githubicon: FiGithub,
@@ -216,6 +218,12 @@ export const skillsDataWeb = [
         color: "#61DAFB",
       },
       {
+        title: "Redux",
+        hash: "#Redux",
+        icon: reduxicon,
+        color: "#764ABC",
+      },
+      {
         title: "Next.js",
         hash: "#Next.js",
         icon: [nextjsicon, nextjsiconwhite],
@@ -287,12 +295,18 @@ export const skillsDataWeb = [
         icon: redisicon,
         color: "#912626",
       },
-      // {
-      //   title: "Zapier",
-      //   hash: "#Zapier",
-      //   icon: zapiericon,
-      //   color: "#CC6699",
-      // },
+      {
+        title: "Netlify",
+        hash: "#Netlify",
+        icon: netlifyicon,
+        color: "#05BDBA",
+      },
+      {
+        title: "Render",
+        hash: "#Render",
+        icon: rendericon,
+        color: "#5EEBC4",
+      },
     ],
   },
 ] as const;
