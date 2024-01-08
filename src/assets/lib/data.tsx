@@ -17,6 +17,7 @@ import jesticon from "../../assets/icons/jesticon.svg";
 import redisicon from "../../assets/icons/redisicon.svg";
 import zapiericon from "../../assets/icons/zapiericon.svg";
 import reduxicon from "../../assets/icons/reduxicon.svg";
+import vuejsicon from "../../assets/icons/vuejsicon.svg";
 // import mongodbicon from "../../assets/icons/mongoicon.svg";
 // import vuejsicon from "../../assets/icons/vueicon.svg";
 import expressicon from "../../assets/icons/expressicon.svg";
@@ -34,9 +35,10 @@ import shopifyicon from "../../assets/icons/shopifyicon.svg";
 import webflowicon from "../../assets/icons/webflowicon.svg";
 // import tastyMockup from "../../assets/img/tasty_mockup.webp";
 import crownMockup from "../../assets/img/crown_clothing_mockup.webp";
+import shopifyVueMockup  from "../../assets/img/shopify_vueJS_mockup.webp";
 import instorMockup from "../../assets/img/instor_mockup.webp";
 import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
-import profilepicture from "../img/me2.webp";
+import profilepicture from "../img/profile-pic.webp";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
 import hardwareicon from "../../assets/icons/hardware-icon.svg";
@@ -52,7 +54,7 @@ export const headerIntroData = {
     es: "Hola, soy Jesús Aguiar",
     en: "Hi, I'm Jesús Aguiar",
   },
-  subtitle: "Frontend Developer ",
+  subtitle: "Shopify - Frontend Developer ",
   description: {
     es: "Soy un biólogo que pasó de la investigación científica a la creación de sitios web para ganarse la vida. El Frontend de comercios electrónicos es mi principal campo de especialización y puedo trabajar cómodamente en tiendas Shopify usando Liquid o creando excelentes aplicaciones web a través de React. Fuera de mi horario de 9 a 5, me gusta leer libros, comer buena comida y hacer paradas de manos. Los cursos online son mi adicción y mi objetivo a largo plazo es aprender algo nuevo cada día.",
     en: "I'm a Biologist that went from scientific research to building websites for a living. The Frontend of ecommerces is my main field of expertise, and I can comfortably work in Shopify stores using Liquid or creating great web apps through React. Outside of my 9-5 I like to read books, eat great food and do handstands. Online courses are my addiction and my long-term goal is to learn something new every day.",
@@ -112,30 +114,30 @@ export const projectsData = [
     },
   },
   {
-    title: "Silentmoon",
+    title: "Classic Paitings",
     description:
-      "Eine Yoga und Meditations App, die wir als Team mit React, MongoDB, Express und Node.js gebaut haben. Meine Aufgabe als Gitmaster und Backend Entwickler bestand darin, das Backend mit Anbindung anhand einer Restful API zu programmieren und die Datenbank in MongoDB zu modellieren.",
+      "Un ecommerce de pinturas clásicas creada en Shopify, usando Javascript, VueJS y CSS. Contraseña de la tienda: agawya.",
     description_EN:
-      "A yoga and meditation app that we built as a team with React, MongoDB, Express and Node.js. My task as a gitmaster and backend developer was to program the backend with connection using a restful API and to model the database in MongoDB.",
+      "A classic paintings ecommerce built in Shopify, using Javascript, VueJS and CSS. Store password: agawya",
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
       { name: "JavaScript", icon: javascripticon },
-      { name: "Spotify Api", icon: spotifyicon },
-      { name: "React", icon: reacticon },
-      { name: "JWT & Bcrypt", icon: jwticon },
-      { name: "Axios", icon: axiosicon },
-      { name: "PostgreSQL", icon: postgresicon },
-      { name: "Express", icon: expressiconwhite },
-      { name: "Node.js", icon: nodejsicon },
-      { name: "Figma", icon: figmaicon },
-      { name: "Render", icon: rendericon },
-      { name: "Firebase", icon: firebaseicon },
+      { name: "VueJS", icon: vuejsicon },
+      { name: "Shopify", icon: shopifyicon },
+      // { name: "JWT & Bcrypt", icon: jwticon },
+      // { name: "Axios", icon: axiosicon },
+      // { name: "PostgreSQL", icon: postgresicon },
+      // { name: "Express", icon: expressiconwhite },
+      // { name: "Node.js", icon: nodejsicon },
+      // { name: "Figma", icon: figmaicon },
+      // { name: "Render", icon: rendericon },
+      // { name: "Firebase", icon: firebaseicon },
     ],
-    image: silentmoonMockup,
-    deploymenturl: "https://crown-clothing-ja.netlify.app/",
+    image: shopifyVueMockup,
+    deploymenturl: "https://vuejs-store-ja.myshopify.com/",
     githuburl:
-      "https://github.com/JesusAdolfoAguiar/clothing-ecommerce",
+      "https://github.com/JesusAdolfoAguiar/Shopify-Theme-VueJS",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -315,6 +317,12 @@ export const skillsDataWeb = [
         hash: "#Firebase",
         icon: firebaseicon,
         color: "#ffa000",
+      },
+      {
+        title: "VueJS",
+        hash: "#VueJS",
+        icon: vuejsicon,
+        color: "#425466",
       },
     ],
   },
