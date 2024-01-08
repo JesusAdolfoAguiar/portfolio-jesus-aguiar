@@ -25,7 +25,7 @@ import sassscssicon from "../../assets/icons/sassicon.svg";
 import trelloicon from "../../assets/icons/trelloicon.svg";
 import apiicon from "../../assets/icons/apiicon.svg";
 import axiosicon from "../../assets/icons/axiosicon.svg";
-import spotifyicon from "../../assets/icons/spotifyicon.svg";
+// import spotifyicon from "../../assets/icons/spotifyicon.svg";
 import netlifyicon from "../../assets/icons/netlifyicon.svg";
 import rendericon from "../../assets/icons/rendericon.svg";
 import firebaseicon from "../../assets/icons/firebaseicon.svg";
@@ -37,7 +37,7 @@ import webflowicon from "../../assets/icons/webflowicon.svg";
 import crownMockup from "../../assets/img/crown_clothing_mockup.webp";
 import shopifyVueMockup  from "../../assets/img/shopify_vueJS_mockup.webp";
 import instorMockup from "../../assets/img/instor_mockup.webp";
-import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
+// import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
 import profilepicture from "../img/profile-pic.webp";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
@@ -322,7 +322,7 @@ export const skillsDataWeb = [
         title: "VueJS",
         hash: "#VueJS",
         icon: vuejsicon,
-        color: "#425466",
+        color: "#4DBA87",
       },
     ],
   },

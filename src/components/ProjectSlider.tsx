@@ -27,7 +27,7 @@ const ProjectSlider: React.FC = () => {
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
   const notifyServerRequest = () => {
     if (language === "ES") {
-      toast.info(toastMessages.loadingProject.de);
+      toast.info(toastMessages.loadingProject.es);
     } else {
       toast.info(toastMessages.loadingProject.en);
     }
@@ -73,11 +73,11 @@ const ProjectSlider: React.FC = () => {
             >
               <p className="text-[--white] mt-16 mb-6">
                 <span className="text-[--orange]">&lt;</span>
-                {language === "ES" ? "Projekte" : "Projects"}
+                {language === "ES" ? "Proyectos" : "Projects"}
                 <span className="text-[--orange]">/&gt;</span>
               </p>
               <h2 className="text-[--white] mb-16">
-                {language === "ES" ? "Meine Projekte" : "My Projects"}
+                {language === "ES" ? "Mis Proyectos" : "My Projects"}
               </h2>
             </motion.div>
             <Swiper
