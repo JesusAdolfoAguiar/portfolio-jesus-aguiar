@@ -22,9 +22,9 @@ import vuejsicon from "../../assets/icons/vuejsicon.svg";
 // import vuejsicon from "../../assets/icons/vueicon.svg";
 import expressicon from "../../assets/icons/expressicon.svg";
 import sassscssicon from "../../assets/icons/sassicon.svg";
-import trelloicon from "../../assets/icons/trelloicon.svg";
+// import trelloicon from "../../assets/icons/trelloicon.svg";
 import apiicon from "../../assets/icons/apiicon.svg";
-import axiosicon from "../../assets/icons/axiosicon.svg";
+// import axiosicon from "../../assets/icons/axiosicon.svg";
 // import spotifyicon from "../../assets/icons/spotifyicon.svg";
 import netlifyicon from "../../assets/icons/netlifyicon.svg";
 import rendericon from "../../assets/icons/rendericon.svg";
@@ -36,7 +36,8 @@ import webflowicon from "../../assets/icons/webflowicon.svg";
 // import tastyMockup from "../../assets/img/tasty_mockup.webp";
 import crownMockup from "../../assets/img/crown_clothing_mockup.webp";
 import shopifyVueMockup  from "../../assets/img/shopify_vueJS_mockup.webp";
-import instorMockup from "../../assets/img/instor_mockup.webp";
+import shopifyMooMockup from "../../assets/img/shopify_moo_mockup.webp";
+// import instorMockup from "../../assets/img/instor_mockup.webp";
 // import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
 import profilepicture from "../img/profile-pic.webp";
 import caricon from "../../assets/icons/car-icon.svg";
@@ -116,9 +117,9 @@ export const projectsData = [
   {
     title: "Classic Paitings",
     description:
-      "Un ecommerce de pinturas clásicas creada en Shopify, usando Javascript, VueJS y CSS. Contraseña de la tienda: agawya.",
+      "Esta es una tienda personalizada en Shopify creada usando el Themekit de Shopify. La interactividad se creó usando VueJS. Contraseña de la tienda: agawya.",
     description_EN:
-      "A classic paintings ecommerce built in Shopify, using Javascript, VueJS and CSS. Store password: agawya",
+      "This is a custom Shopify storefront built using the Shopify's ThemeKit. Interactivity was built using VueJS. Store password: agawya",
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
@@ -130,7 +131,7 @@ export const projectsData = [
       // { name: "PostgreSQL", icon: postgresicon },
       // { name: "Express", icon: expressiconwhite },
       // { name: "Node.js", icon: nodejsicon },
-      // { name: "Figma", icon: figmaicon },
+      { name: "Figma", icon: figmaicon },
       // { name: "Render", icon: rendericon },
       // { name: "Firebase", icon: firebaseicon },
     ],
@@ -148,26 +149,27 @@ export const projectsData = [
     },
   },
   {
-    title: "Furniture Organizer",
+    title: "Moo vintage & thrift",
     description:
-      "Eine Möbel-Organizer App, die wir als Duo-Team mit React, MongoDB, Express und Node.js programmiert haben. Als Gitmaster habe ich die Verknüpfung des Frontends mit dem Backend und die Datenbankmodellierung übernommen. Die App ist responsive und mobile-optimiert.",
+      "Esta es una tienda en Shopify personalizada, lista para producción, creada utilizando el tema de referencia de Shopify (Dawn) y adaptado a diseños en Figma. Contraseña de la tienda: aobrar",
     description_EN:
-      "A furniture organizer app that we programmed as a duo team with React, MongoDB, Express and Node.js. As a gitmaster, I took over the connection of the frontend to the backend and the database modeling. The app is responsive and mobile-optimized.",
+      "This is a production ready custom Shopify storefront built using the Shopify's reference theme (Dawn) and customized to Figma mockups. Store password: aobrar",
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
       { name: "JavaScript", icon: javascripticon },
-      { name: "React", icon: reacticon },
-      { name: "JWT & Bcrypt", icon: jwticon },
-      { name: "Axios", icon: axiosicon },
-      { name: "PostgreSQL", icon: postgresicon },
-      { name: "Express", icon: expressiconwhite },
-      { name: "Node.js", icon: nodejsicon },
+      // { name: "React", icon: reacticon },
+      // { name: "JWT & Bcrypt", icon: jwticon },
+      // { name: "Axios", icon: axiosicon },
+      // { name: "PostgreSQL", icon: postgresicon },
+      // { name: "Express", icon: expressiconwhite },
+      // { name: "Node.js", icon: nodejsicon },
       { name: "Figma", icon: figmaicon },
-      { name: "Render", icon: rendericon },
-      { name: "Trello", icon: trelloicon },
+      // { name: "Render", icon: rendericon },
+      // { name: "Trello", icon: trelloicon },
+      { name: "Shopify", icon: shopifyicon },
     ],
-    image: instorMockup,
+    image: shopifyMooMockup,
     deploymenturl: "https://mern-haushaltsbuch.onrender.com/",
     githuburl: "https://github.com/AlpayC/Furniture_MERN",
     githubicon: FiGithub,
