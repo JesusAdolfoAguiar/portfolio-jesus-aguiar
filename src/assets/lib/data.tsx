@@ -170,8 +170,8 @@ export const projectsData = [
       { name: "Shopify", icon: shopifyicon },
     ],
     image: shopifyMooMockup,
-    deploymenturl: "https://mern-haushaltsbuch.onrender.com/",
-    githuburl: "https://github.com/AlpayC/Furniture_MERN",
+    deploymenturl: "https://online-store-2-0-ja.myshopify.com/",
+    githuburl: "https://github.com/JesusAdolfoAguiar/Shopify-Theme-Online-Store-2.0",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
