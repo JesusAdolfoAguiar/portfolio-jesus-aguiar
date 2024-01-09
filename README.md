@@ -4,7 +4,7 @@ This is a portfolio website built using React, Tailwind CSS, and TypeScript. The
 
 ## Demo
 
-<img src="./gitjub_readme.webp" alt="Screenshot" width="1080"/>
+<img src="./github_readme.webp" alt="Screenshot" width="1080"/>
 
 You can also check out the live demo of the portfolio website [here](https://jesus-guiar.netlify.app/).
 
