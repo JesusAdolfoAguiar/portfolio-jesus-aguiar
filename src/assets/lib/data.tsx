@@ -29,7 +29,7 @@ import apiicon from "../../assets/icons/apiicon.svg";
 import netlifyicon from "../../assets/icons/netlifyicon.svg";
 import rendericon from "../../assets/icons/rendericon.svg";
 import firebaseicon from "../../assets/icons/firebaseicon.svg";
-import jwticon from "../../assets/icons/jwticon.svg";
+// import jwticon from "../../assets/icons/jwticon.svg";
 // import wordpressicon from "../../assets/icons/wordpressicon.svg";
 import shopifyicon from "../../assets/icons/shopifyicon.svg";
 import webflowicon from "../../assets/icons/webflowicon.svg";
