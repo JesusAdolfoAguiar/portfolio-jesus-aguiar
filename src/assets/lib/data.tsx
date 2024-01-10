@@ -433,41 +433,41 @@ export const aboutMeData = {
   description_EN: "A few code snippets about me",
   paragraphs_ES: [
     {
-      title: "Die Schaltkreise meines Herzens",
+      title: "Los Mercados Financieros como Interacciones Humanas",
       description:
-        "Wenn ich nicht in der digitalen Welt unterwegs bin, durchstreife ich die faszinierende Welt der Technik und Hardware. Schaltkreise und Lötstellen sind für mich wie Puzzleteile eines aufregenden Abenteuers.",
+        "Cuando no estoy navegando por el mundo de la tecnología, exploro el fascinante ámbito del day trading. Los mercados financieros, aunque complejos, son la expresión de una de las interacciones humanas más simples: el intercambio de valor.",
       icon: hardwareicon,
     },
     {
-      title: "Auf der Überholspur des Lebens",
+      title: "Leyendo una vida",
       description:
-        "Neben dem Coden befinde ich mich gerne auf der Überholspur – im wahrsten Sinne des Wortes. Autos sind meine Leidenschaft, und ich genieße es, mit PS-starken Maschinen auf unbekannten Straßen unterwegs zu sein.",
+        "Además de programar, me gusta sumergirme en el mundo de los libros. Son como espejos: en ellos sólo ves lo que ya tienes dentro de ti.",
       icon: caricon,
     },
     {
-      title: "Entdeckungsfreude als Lebensmotto",
+      title: "Ejercitarte para Superar tus Límites",
       description:
-        "Meine Reise als Webentwickler ist nur ein Teil meines Lebenswegs. Ich lebe nach dem Motto, dass das Abenteuer erst beginnt, wenn man das Bekannte hinter sich lässt. Das Entdecken neuer Orte ist meine Form der kreativen Inspiration.",
+        "Vivo bajo el lema de que si algo no te desafía, no te cambia. Hacer ejercicio hace exactamente eso, y todo el progreso se encuentra fuera de la zona de confort.",
       icon: travelicon,
     },
   ],
   paragraphs_EN: [
     {
-      title: "The Circuits of My Heart",
+      title: "Financial markets as Human Interactions",
       description:
-        "When I'm not navigating the digital world, I explore the fascinating realm of technology and hardware. Circuits and solder joints are like puzzle pieces to me in an exciting adventure.",
+        "When I'm not navigating the tech world, I explore the fascinating realm of day trading. The financial markets, while complex, are the expresion of one of the simplest human interaction, the exchange of value.",
       icon: hardwareicon,
     },
     {
-      title: "On the Fast Lane of Life",
+      title: "Reading a Life",
       description:
-        "Besides coding, I like to be on the fast lane - in the truest sense of the word. Cars are my passion, and I enjoy being on unknown roads with powerful machines.",
+        "Besides coding, I like dwelving in the world of books. They are like mirrors: You only see in them what you already have inside you.",
       icon: caricon,
     },
     {
-      title: "The Joy of Discovery as a Life Motto",
+      title: "Exercising to Push your Limits",
       description:
-        "My journey as a web developer is only a part of my life path. I live by the motto that the adventure only begins when you leave the familiar behind. Discovering new places and cultures is my form of creative inspiration.",
+        "I live by the motto that if something doesn’t challenge you, it doesn’t change you. Working out does exactly that, and all progress takes place outside the comfort zone.",
       icon: travelicon,
     },
   ],
