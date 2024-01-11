@@ -73,7 +73,7 @@ export const headerIntroData = {
     {
       name: "Projects",
       label: {
-        es: "Meine Projekte",
+        es: "Mis Proyectos",
         en: "My Projects",
       },
       icon: FiGithub,
