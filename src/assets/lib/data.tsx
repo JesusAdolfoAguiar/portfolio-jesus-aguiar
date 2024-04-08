@@ -1,5 +1,6 @@
 // import adobexdicon from "../../assets/icons/adobexdicon.svg";
 // import canvaicon from "../../assets/icons/canvaicon.svg";
+import photoshopicon from "../../assets/icons/photoshopicon.png"
 import figmaicon from "../../assets/icons/figmaicon.svg";
 import htmlicon from "../../assets/icons/htmlicon.svg";
 import cssicon from "../../assets/icons/cssicon.svg";
@@ -335,6 +336,7 @@ export const skillsDataDesign = [
     skillsTitle: "Design",
     skills: [
       { title: "Figma", hash: "#Figma", icon: figmaicon, color: "#F24E1E" },
+      { title: "Photoshop", hash: "#Photoshop", icon: photoshopicon, color: "#31a8ff" }
       // {
       //   title: "Adobe XD",
       //   hash: "#Adobe XD",
