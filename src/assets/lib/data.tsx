@@ -36,6 +36,7 @@ import shopifyicon from "../../assets/icons/shopifyicon.svg";
 import webflowicon from "../../assets/icons/webflowicon.svg";
 // import tastyMockup from "../../assets/img/tasty_mockup.webp";
 import crownMockup from "../../assets/img/crown_clothing_mockup.webp";
+import brainMockup from "../../assets/img/smart_brain_mockup.webp";
 import shopifyVueMockup  from "../../assets/img/shopify_vueJS_mockup.webp";
 import shopifyMooMockup from "../../assets/img/shopify_moo_mockup.webp";
 // import instorMockup from "../../assets/img/instor_mockup.webp";
@@ -106,6 +107,36 @@ export const projectsData = [
     image: crownMockup,
     deploymenturl: "https://crown-clothing-ja.netlify.app/",
     githuburl: "https://github.com/JesusAdolfoAguiar/clothing-ecommerce",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#70B9BE",
+    },
+  },
+  {
+    title: "Smart Brain",
+    description:
+      "Una aplicación web que usa el API de Clarifai para detectar rostros en imágenes al usar el url de la imagen. El frontend está creado en React, el servidor en Express.js y la base de datos en PostgreSQL. La aplicación está hosteada en Render.com.",
+    description_EN:
+      "A web app that uses the Clarifai API to detect faces in images by passing the image url. The frontend is built in React, the server in Express.js and the database in PostgreSQL. The whole app is hosted in Render.com",
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "REST Api", icon: apiicon },
+      { name: "React", icon: reacticon },
+      { name: "Node", icon: nodejsicon },
+      { name: "Express", icon: expressicon },
+      { name: "Clarifai", icon: clarifaiicon },
+      { name: "PostgreSQL", icon: postgresicon },
+      { name: "Render", icon: rendericon },
+    ],
+    image: brainMockup,
+    deploymenturl: "https://face-recognition-brain-uo9p.onrender.com",
+    githuburl: "https://github.com/JesusAdolfoAguiar/face-recognition-brain",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
