@@ -100,6 +100,7 @@ export const projectsData = [
       { name: "React", icon: reacticon },
       { name: "Typescript", icon: typescripticon },
       { name: "Redux", icon: reduxicon },
+      { name: "Jest", icon: jesticon },
       { name: "Netlify", icon: netlifyicon },
       { name: "Firebase", icon: firebaseicon },
       // { name: "Trello", icon: trelloicon },
@@ -119,15 +120,16 @@ export const projectsData = [
   {
     title: "Smart Brain",
     description:
-      "Una aplicación web que usa el API de Clarifai para detectar rostros en imágenes al usar el url de la imagen. El frontend está creado en React, el servidor en Express.js y la base de datos en PostgreSQL. La aplicación está hosteada en Render.com.",
+      "Una aplicación web que usa el API de Clarifai para detectar rostros en imágenes al usar el url de la imagen. El frontend está creado en React, el servidor en Express.js y la base de datos en PostgreSQL. La aplicación usa Jest para pruebas y está hosteada en Render.com.",
     description_EN:
-      "A web app that uses the Clarifai API to detect faces in images by passing the image url. The frontend is built in React, the server in Express.js and the database in PostgreSQL. The whole app is hosted in Render.com",
+      "A web app that uses the Clarifai API to detect faces in images by passing the image url. The frontend is built in React, the server in Express.js and the database in PostgreSQL. The app uses Jest for testing and is hosted in Render.com",
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
       { name: "JavaScript", icon: javascripticon },
       { name: "REST Api", icon: apiicon },
       { name: "React", icon: reacticon },
+      { name: "Jest", icon: jesticon },
       { name: "Node", icon: nodejsicon },
       { name: "Express", icon: expressicon },
       { name: "Clarifai", icon: clarifaiicon },
