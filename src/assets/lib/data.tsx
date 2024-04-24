@@ -276,12 +276,12 @@ export const skillsDataWeb = [
         icon: nodejsicon,
         color: "#339933",
       },
-      {
-        title: "Tailwind",
-        hash: "#Tailwind",
-        icon: tailwindcssicon,
-        color: "#38B2AC",
-      },
+      // {
+      //   title: "Tailwind",
+      //   hash: "#Tailwind",
+      //   icon: tailwindcssicon,
+      //   color: "#38B2AC",
+      // },
       {
         title: "PostgreSQL",
         hash: "#PostgreSQL",
