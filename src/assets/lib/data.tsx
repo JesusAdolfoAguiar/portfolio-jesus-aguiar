@@ -9,7 +9,7 @@ import typescripticon from "../../assets/icons/typescripticon.svg";
 import reacticon from "../../assets/icons/reacticon.svg";
 import nextjsicon from "../../assets/icons/nextjsicon.svg";
 import nodejsicon from "../../assets/icons/nodejsicon.svg";
-import tailwindcssicon from "../../assets/icons/tailwindicon.svg";
+// import tailwindcssicon from "../../assets/icons/tailwindicon.svg";
 import postgresicon from "../../assets/icons/postgresqlicon.svg";
 import circleciicon from "../../assets/icons/circleciicon.svg";
 import clarifaiicon from "../../assets/icons/clarifaiicon.svg";
